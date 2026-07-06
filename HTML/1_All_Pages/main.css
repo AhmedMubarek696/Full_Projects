@@ -1,0 +1,9 @@
+html {font-size: 22px;}
+body {
+    background-color: #333;
+    color: white;
+}
+a:link{color: #3399CC;}
+a:visited{color: #336699;}
+a:hover{color: #33A1FF;}
+a:active{color: #66CCFF;}

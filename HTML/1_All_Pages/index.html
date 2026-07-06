@@ -6,16 +6,44 @@
         <meta name="Description" content="My first Webpage on HTML">
         <title>My First Website</title>
         <link rel="icon" href="img/HTML_Logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
     </head>
     <body>
         <header>
             <h1>Page Header</h1>
             <nav>
                 <h2>Content</h2>
+                <ul>
+                    <li><a href="#figures">Figures</a></li>
+                </ul>
             </nav>
         </header>
         <main>
+            <section id="figures">
+                <h2>Figures</h2>
 
+                    <article>
+                        <h3>Image Examples</h3>
+                        <p>A paragraph inside an article</p>
+                        
+                        <figure>
+                            <figcaption>This is a caption for the following picture</figcaption>
+                            <img src="img/HTML_Logo.png" alt="The alternative description for the image" title="Image title" width="300">
+                        </figure>
+                        <hr>
+                    </article>
+                    <article>
+                        <h3>Code Example</h3>
+                        <p>A paragraph inside an article</p>
+
+                        <figure>
+                            <figcaption>A caption before the code</figcaption>
+                            <code>&lt;H2&gt;Header Name&lt;H2&gt;</code>
+                        </figure>
+                        <hr>
+                        <hr>
+                    </article>
+            </section>
         </main>
         <footer>
 
