@@ -3,50 +3,186 @@
     <head>
         <meta charset="UTF-8">
         <meta name="Author" content="Ahmed Mohammed">
-        <meta name="Description" content="My first Webpage on HTML">
-        <title>My First Website</title>
+        <meta name="Description" content="This is my first website">
+        <title>My first Website</title>
         <link rel="icon" href="img/HTML_Logo.png" type="image/x-icon">
         <link rel="stylesheet" href="main.css" type="text/css">
     </head>
     <body>
         <header>
-            <h1>Page Header</h1>
+            <h1>Hello World</h1>
             <nav>
                 <h2>Content</h2>
+                
                 <ul>
                     <li><a href="#figures">Figures</a></li>
+                    <li><a href="#lists">Lists</a></li>
                 </ul>
             </nav>
+            <hr><hr>
         </header>
         <main>
             <section id="figures">
                 <h2>Figures</h2>
-
                     <article>
                         <h3>Image Examples</h3>
-                        <p>A paragraph inside an article</p>
-                        
+                        <p>Here is a paragraph inside an article</p>
+
                         <figure>
-                            <figcaption>This is a caption for the following picture</figcaption>
-                            <img src="img/HTML_Logo.png" alt="The alternative description for the image" title="Image title" width="300">
+                            <figcaption>
+                                This is a caption for the following image
+                            </figcaption>
+                            <img src="img/HTML_Logo.png" alt="HTML Logo" title="HTML Logo">
                         </figure>
                         <hr>
                     </article>
                     <article>
                         <h3>Code Example</h3>
-                        <p>A paragraph inside an article</p>
+                        <p>A paragraph for the code example article</p>
 
                         <figure>
-                            <figcaption>A caption before the code</figcaption>
-                            <code>&lt;H2&gt;Header Name&lt;H2&gt;</code>
+                            <figcaption>
+                                This is a caption before code
+                            </figcaption>
+                            <code>
+                                &lt;H2&gt; Header Name &lt;H2&gt;
+                            </code>
                         </figure>
-                        <hr>
-                        <hr>
                     </article>
+                    <hr><hr>
+            </section>
+            <section id="lists">
+                <h2>Lists</h2>
+                <p>A paragraph for Lists section</p>
+
+                <article>
+                    <h3>Unordered List</h3>
+                    <ul>
+                        <li>The first value</li>
+                        <li>The second value</li>
+                        <li>The third value</li>
+                    </ul>
+                    <hr>
+                </article>
+                <article>
+                    <h3>Ordered List</h3>
+                    <ol>
+                        <li>The first line</li>
+                        <li>The second line</li>
+                        <li>The third line</li>
+                    </ol>
+                    <hr>
+                </article>
+                <article>
+                    <h3>Description List</h3>
+                    <dt>Description Title 1</dt>
+                    <dd>description detail 1</dd>
+
+                    <dt>Description Title 2</dt>
+                    <dd>description detail 2</dd>
+
+                    <dt>Description Title 3</dt>
+                    <dd>description detail 3</dd>
+                </article>
+                <hr><hr>
+            </section>
+            <section>
+                <h2>Text Formats</h2>
+                <p>A paragraph for text formats section</p>
+
+                <article>
+                    <h3>Address Lines</h3>
+                    <p>A paragraph for the address lines article</p>
+
+                    <address>
+                        The first address line <br>
+                        The second address line <br>
+                        The third address line
+                    </address>
+                    <hr>
+                </article>
+                <article>
+                    <h3>Padding Spaces</h3>
+                    <p>A paragraph for padding spaces article</p>
+
+                    <p>
+                        &nbsp;1 Padding space <br>
+                        &nbsp;&nbsp;2 padding spaces <br>
+                        &nbsp;&nbsp;&nbsp;3 padding spaces <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;4 padding spaces
+                    </p>
+                    <hr>
+                </article>
+                <article>
+                    <h3>Text Styles</h3>
+                    <p>A paragraph for text styles</p>
+
+                    <strong>Bold</strong><br>
+                    <em>Italic</em><br>
+                    <abbr title="The full Explanation">Abbreviation</abbr><br><br>
+                    <mark>Highlighted</mark>
+                    <hr>
+                </article>
+                <article>
+                    <h3>Hiding Detials</h3>
+                    <p>A paragraph for hiding details article</p>
+
+                    <details>
+                        <summary>Click here to show all details</summary>
+                        <p>All details start here</p>
+                    </details>
+                    <hr>
+                </article>
+                <article>
+                    <h3>Time Format</h3>
+                    <p>A paragraph for time format article</p>
+                    <time datetime="10:30">10:30 AM</time><br>
+                    <time datetime="15:00">3 PM</time>
+                    <hr>
+                </article>
+                <hr><hr>
+            </section>
+            <section id="titleLevels">
+                <h2>Title Levels</h2>
+                <p>A paragraph for title levels section</p>
+
+                <article>
+                    <h3>A Article Title</h3>
+                    <p>Article paragraph</p>
+                    <aside>
+                        <h4>A1 Aside title</h4>
+                        <p>aside paragraph</p>
+                    </aside>
+                    <aside>
+                        <h4>A2 Aside title</h4>
+                        <p>aside paragraph</p>
+                    </aside>
+                    <hr>
+                </article>
+                <article>
+                    <h3>B Article Title</h3>
+                    <p>Article paragraph</p>
+
+                    <aside>
+                        <h4>B1 Aside Title</h4>
+                        <p>aside paragraph</p>
+                    </aside>
+                    <aside>
+                        <h4>B2 Aside Title</h4>
+                        <p>aside paragraph</p>
+                    </aside>
+                </article>
+                <hr><hr>
             </section>
         </main>
         <footer>
+            <ul>
+                <li><a href="#">Back To The Top</a></li>
+                <li><a href="me.html">About Me</a></li>
+                <li><a href="tables.html">Tables</a></li>
 
+            </ul>
+            &lt;&lt;&lt;&copy;Ahmed Mohammed&gt;&gt;&gt;
         </footer>
     </body>
 </html>

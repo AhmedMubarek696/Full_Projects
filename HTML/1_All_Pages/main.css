@@ -3,7 +3,13 @@ body {
     background-color: #333;
     color: white;
 }
-a:link{color: #3399CC;}
-a:visited{color: #336699;}
-a:hover{color: #33A1FF;}
-a:active{color: #66CCFF;}
+a:link {color: #3399CC;}
+a:visited {color: #336699;}
+a:hover {color: #33A1FF;}
+a:active {color: #66CCFF;}
+table,caption,tr,th,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    padding: .5rem;
+}
