@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Ahmed Mohammed">
+        <meta name="Description" content="Forms">
+        <title>Forms</title>
+        <link rel="icon" href="img/HTML_Logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Forms</h1>
+            <nav>
+                <h2>Content</h2>
+                
+                <ul>
+                    <li><a href="#form-a">Form A</a></li>
+                </ul>
+            </nav>
+            <hr><hr>
+        </header>
+        <main>
+            <section id="form-a">
+                <h2>Form A</h2>
+
+                <form action="https://httpbin.org/get">
+                    <p>Add your data here to contact us:</p>
+
+                    <fieldset>
+                        <legend>Single Text</legend>
+
+                        <p>
+                            <label for="first-name">First Name: </label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Ahmed" required autofocus>
+                        </p>
+                    
+                        <p>
+                            <label for="last-name">Last Name: </label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Mohammed" required>
+                        </p>
+
+                        <p>
+                            <label for="password">Password: </label>
+                            <input type="password" name="password" id="password">
+                        </p>
+
+                        <p>
+                            <label for="phone">Phone: </label>
+                            <input type="tel" name="phone" id="phone" pattern="[0]{1}[0-9]{10}" placeholder="0123456789" required>
+                        </p>
+                    
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Limited Numeric Text</legend>
+
+                        <p>
+                            <label for="decade">Decade: </label>
+                            <input type="number" name="decade" id="decade" min="1960" max="2020" step="10" value="1970">
+                        </p>
+
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Data List</legend>
+
+                        <p>
+                            <label for="datalist-a">Datalist: </label>
+                            <input type="text" name="datalist-a" id="datalist-a" list="list-a">
+                            <datalist id="list-a">
+                                <option value="value 1">value 1</option>
+                                <option value="value 2">value 2</option>
+                                <option value="value 3">value 3</option>
+                                <option value="value 4">value 4</option>
+                                <option value="value 5">value 5</option>
+                                <option value="value 6">value 6</option>
+                                <option value="value 7">value 7</option>
+                            </datalist>
+                        </p>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Select List</legend>
+
+                        <p>
+                            <label for="select-list-a">Select List:</label>
+                            <select name="select-list-a" id="select-list-a" multiple size="5">
+                                <optgroup id="group-a" label="Group A">
+                                    <option value="value a1">Value A1</option>
+                                    <option value="value a2">Value A2</option>
+                                    <option value="value a3">Value A3</option>
+                                </optgroup>
+
+                                <optgroup id="group-b" label="Group B">
+                                    <option value="value b1">Value B1</option>
+                                    <option value="value b2">Value B2</option>
+                                    <option value="value b3">Value B3</option>
+                                </optgroup>
+
+                                 <option value="value c">Value C</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Radio Button</legend>
+
+                        <p>
+                            <label for="radio-button">Radio A1</label>
+                            <input type="radio" name="radio-button" id="radio-button-a1">
+                        </p>
+
+                        <p>
+                            <label for="radio-button">Radio A2</label>
+                            <input type="radio" name="radio-button" id="radio-button-a2">
+                        </p>
+
+                        <p>
+                            <label for="radio-button">Radio A3</label>
+                            <input type="radio" name="radio-button" id="radio-button-a3">
+                        </p>
+                    </fieldset>
+                    <br>
+
+                    <fieldset>
+                        <legend>Free Text Area</legend>
+
+                        <p>
+                            <label for="your-note">Your Note: </label>
+                            <textarea name="your-note" id="your-note" placeholder="Enter your note here .." rows="10" cols="60"></textarea>
+                    </p>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </form>
+                <hr><hr>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="#">Back To The Top</a></li>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="me.html">About Me</a></li>
+                <li><a href="tables.html">Tables</a></li>
+            </ul>
+            &lt;&lt;&lt;&copy;Ahmed Mohammed&gt;&gt;&gt;
+        </footer>
+    </body>
+</html>
