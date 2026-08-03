@@ -1,0 +1,21 @@
+html {font-size: 22px;}
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+a:link {color: #3399CC;}
+a:visited {color: #336699;}
+a:hover {color:#33A1FF;}
+a:active {color: #66CCFF;}
+
+table, caption, tr,th,td {
+    border: 1px solid #333;
+    border-collapse: separate;
+    padding: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
