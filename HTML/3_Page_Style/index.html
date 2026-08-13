@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Ahmed Mohammed">
+        <meta name="Description" content="Single page with local styles">
+        <meta name="Keywords" content="HTML, Tutorial">
+        <meta name="Viewport" content="with=Device-width, initial-scale=1.0"> 
+        <title>Ahmed Mohammed</title>
+        <link rel="icon" href="HTML_Logo.png" type="image/x-icon">
+    </head>
+    <body style="background-color: bisque; color: blueviolet; font-size: 22px;">
+        <header>
+            <h1 style="color: brown;">Page Header</h1>
+            <nav>
+                <h2>Content</h2>
+                <ol type="1">
+                    <li><a href="#text-formats">Text Formats</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#lists">Lists</a></li>
+                    <li><a href="#block-in-line">Block Elements vs In-Line Elements</a></li>
+                    <li><a href="#form-a">Form A</a></li>
+                    <li><a href="#embedding-websites">Embedding Websites</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <section id="text-formats">
+                <h2>Text Formats</h2>
+                <p>This is <i>italic style i</i> without meaning</p>
+                <p>This is <b>Bold Style b</b> without strong</p>
+                <p>This is a <big>big text</big></p>
+                <p>This is a <small>small text</small></p>
+                <p>Subscript H<sub>2</sub>O</p>
+                <p>Superscript 10<sup>3</sup></p>
+                <p style="background-color: gray; color: white;">Background color for a paragraph</p>
+                <hr>
+            </section>
+            <section>
+                <h2>Images</h2>
+                <figure>
+                    <figcaption>Online Image</figcaption>
+                    <img src="https://www.sportfm.com.au/wp-content/uploads/2026/02/carlos-alcaraz-australian-open-final-novak-djokovic-scaled-e822a4f8e543.jpg" alt="Carlos Alcaraz" title="Vamooos" width="600" loading="lazy">
+                </figure>
+
+                <figure>
+                    <figcaption>Local Image</figcaption>
+                    <img src="HTML_Logo.png" alt="HTML Logo" title="HTML Logo" width="400" loading="lazy">
+                </figure>
+                <hr>
+            </section>
+            <section id="videos">
+                <h2>Videos</h2>
+
+                <figure>
+                <figcaption>Local Video</figcaption>
+                <video src="Editing_text_color.mp4" width="300" controls poster="HTML_Logo.png" autoplay loop></video>
+                </figure>
+
+                <figure>
+                    <figcaption>Online Video</figcaption>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hrKNkjf50iA?si=uw1FUHzIoRfJlQze" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+                <hr>
+            </section>
+            <section id="lists">
+                <h2>Lists</h2>
+
+                <ol type="A">
+                    <li>Item A</li>
+                    <li>Item B
+                        <ol type="1">
+                            <li>Option 1</li>
+                            <li>Option 2</li>
+                            <li>Option 3</li>
+                        </ol>
+                    </li>
+                    <li>Item C</li>
+                </ol>
+                <hr>
+            </section>
+            <section id="block-in-line">
+                <h2>Block Elements vs In-Line Elements</h2>
+                <p>Paragraph 1</p>
+                <p>Paragraph 2</p>
+                <br>
+                <div>Division 1</div>
+                <div>Division 2</div>
+                <br>
+                <span>Span 1</span>
+                <span>Span 2</span>
+                <hr>
+            </section>
+            <section id="form-a">
+                <h2>Form A</h2>
+                    <form action="https://httpbin.org/get">
+                        <input type="text" placeholder="Your Name..">
+                        <input type="password" placeholder="password..">
+                        <input type="text" placeholder="Notes.."><br>
+                        <textarea name="area-a" id="area-a" placeholder="Add Details here.." rows="10" cols="50"></textarea>
+                        <br><input type="date">
+                        <br><input type="email" placeholder="name@mail.com">
+                        <br><input type="range">
+                        <br><input type="file">
+                        <br><label for="radio-a">A1 </label><input type="radio" name="radio-a" id="radio-a1">
+                        <label for="radio-a">A2 </label><input type="radio" name="radio-a" id="radio-a2">
+                        <br><input type="submit">
+                    </form>
+                    <hr>
+            </section>
+            <section id="embedding-websites">
+                <h2>Embedding websites</h2>
+
+                <iframe src="https://www.giraffeacademy.com/" width="1000" height="800" frameborder="0">Sorry</iframe>
+                <hr>
+            </section>
+        </main>
+        <footer>
+            <li><a href="#">Back To The Top</a></li>
+            <hr>
+            &lt;&lt;&lt;&copy;Ahmed Mohammed&gt;&gt;&gt;
+        </footer>
+    </body>
+</html>
