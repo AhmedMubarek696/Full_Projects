@@ -1,0 +1,48 @@
+/* html {
+    font-size: 2rem;
+} */
+
+/* 
+Let html font size be set dynamically by the browser
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    font-size: 2rem;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    padding: .5em;
+}
+
+main {
+    font-size: 2rem;
+}
+
+
+p {
+    font-size: 2rem;
+    width: 40ch;
+}
+
+body {
+    min-height: 100vh;
+}
+/* 
+setting font size in px will make it fixed everywhere. You can't resize it on browsers.
+It should be a relative value instead.
+borders can be fixed in px unit.
+*/
