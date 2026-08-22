@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1 {
+    width: 50%;
+    border: 2px dashed red;
+    font-size: 2rem;
+    padding: .5em;
+} */
+
+/* header {
+    width: 400px;
+    border: 2px dashed red;
+    padding: 1.5rem;
+} */
+
+/* .container {
+    width: 400px;
+    border: 2px dashed red;
+    padding: 1.5rem;
+} */
+
+/* .container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+} */
+
+/* .container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 1em;
+} */
+
+/* .container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    padding: 1em;
+} */
+
+/* .container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 3em 4em;
+    padding: 1em;
+} */
+
+/* .container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 4em;
+    padding: 1em;
+} */
+
+/* .container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1.5em 2em;
+    padding: 1em;
+} */
+
+/* .container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1em 2em 3em 4em;
+} */
+
+/* .container {
+    border: solid red;
+    border-top: 5px solid green;
+    border-right: 10px dotted blue;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1em 2em 3em 4em;
+} */
+
+/* .container {
+    border: dashed red;
+    border-top-width: 5px;
+    border-right: 10px dotted blue;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1em 2em 3em 4em;
+}
+ */
+/* .container {
+    border: dashed red;
+    border-top-style: ridge;
+    border-right: 10px dotted blue;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1em 2em 3em 4em;
+} */
+
+/* .container {
+    border: dashed red;
+    border-top-color: blue;
+    border-right: 10px dotted blue;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1em 2em 3em 4em;
+} */
+
+/* .container {
+    border: 10px double red;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1em 2em 3em 4em;
+    outline: 5px solid green;
+    outline-offset: 5px;
+} */
+
+.container {
+    border: 10px double red;
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1em 2em 3em 4em;
+    outline: 5px solid green;
+    outline-offset: -20px;
+}
+
+.circle {
+    margin: 2rem auto;
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    border: .25rem solid #000;
+    outline: .25rem solid red;
+    outline-offset: .2rem;
+    border-radius: 50px;
+}
