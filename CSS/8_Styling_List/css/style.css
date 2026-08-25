@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+ol {
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: disc; */
+    list-style-type: lower-alpha;
+    padding: 0;
+}
+
+ul  {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: #00f;
+    line-height: 1.6;
+    /* 
+    list-style-image: url('../images/checkMark.png');
+    list-style: square url('../images/checkMark.png') inside;
+     */
+    /* in case if image can't upload square style will be applied */
+    
+}
+
+ul li:nth-child(odd) {
+    color: red;
+}
+
+ul ::marker {
+    color: #f00;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5 >> ";
+}
